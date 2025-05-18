@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página Inspirada na Netflix</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        background: url("https://assets.nflxext.com/ffe/siteui/vlv3/2434a31d-24c7-4fd0-8f7d-3cfb3c7eab7f/ed3e99b4-cb2d-43e1-8dbe-b9d14e08f50e/BR-pt-20240506-popsignuptwoweeks-perspective_alpha_website_large.jpg")
+          no-repeat center center/cover;
+        height: 100vh;
+        color: white;
+      }
+
+      .overlay {
+        background: rgba(0, 0, 0, 0.7);
+        height: 100%;
+        padding: 2rem;
+      }
+
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .logo {
+        font-size: 2rem;
+        font-weight: bold;
+        color: red;
+      }
+
+      .btn-login {
+        background: red;
+        color: white;
+        padding: 0.5rem 1rem;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      .content {
+        text-align: center;
+        margin-top: 10%;
+      }
+
+      .content h1 {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+      }
+
+      .content p {
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+      }
+
+      .email-form input {
+        padding: 0.8rem;
+        width: 300px;
+        max-width: 80%;
+        border: none;
+        border-radius: 5px 0 0 5px;
+      }
+
+      .email-form button {
+        padding: 0.8rem;
+        background: red;
+        color: white;
+        border: none;
+        border-radius: 0 5px 5px 0;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="overlay">
+      <header>
+        <div class="logo">NETFLIX</div>
+        <button class="btn-login">Entrar</button>
+      </header>
+
+      <div class="content">
+        <h1>Filmes, séries e muito mais. Sem limites.</h1>
+        <p>Assista onde quiser. Cancele quando quiser.</p>
+
+        <div class="email-form">
+          <input type="email" placeholder="Email" />
+          <button>Vamos lá ></button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
